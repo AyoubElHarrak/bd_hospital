@@ -21,6 +21,14 @@ El sistema permite:
 * XAMPP (entorno de desarrollo local)
 * InfinityFree (despliegue en producción)
 
+## 📁 Contenido del repositorio
+
+* Carpeta `crud/` con todos los scripts PHP organizados por tabla
+* `bd_hospital.sql` con la estructura y los datos de la base de datos
+* `bd_hospital_EER.mwb` — diagrama EER generado en MySQL Workbench
+* `bd_hospital.accdb` — base de datos original implementada en Microsoft Access
+* `MEMORIA_BD_HOSPITAL.pdf` — memoria de la realización del proyecto
+
 ## 🗄 Estructura de la base de datos
 
 11 tablas normalizadas hasta 3FN:
