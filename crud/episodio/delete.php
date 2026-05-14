@@ -1,4 +1,5 @@
 <?php
+mysqli_report(MYSQLI_REPORT_OFF);
 require_once("../dbConnection.php");
 $id = $_GET["id"];
 $result = mysqli_query($mysqli, "DELETE FROM episodio WHERE idEpisodio = $id");
