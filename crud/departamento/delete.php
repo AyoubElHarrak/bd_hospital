@@ -1,5 +1,6 @@
 <?php
 require_once("../dbConnection.php");
+mysqli_report(MYSQLI_REPORT_OFF);
 $id = $_GET["id"];
 $result = mysqli_query($mysqli, "DELETE FROM departamento WHERE idDepartamento = $id");
 if ($result) {
